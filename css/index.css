@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'rsu';
+    src: url("../font/RSU_light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'rsu';
+    src: url("../font/RSU_Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'rsu';
+    src: url("../font/RSU_BOLD.ttf");
+    font-weight: 700;
+}
+
+body {
+    font-family: "rsu";
+    background-color: rgb(39, 39, 39);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topic {
+    width: 65%;
+    height: 40%;
+}
+
+.bottom {
+    color: rgb(212, 175, 55);
+    font-size: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ear {
+    justify-content: left;
+}
+
+.mid {
+    justify-content: space-between;
+}
+
+.lat {
+    justify-content: right;
+}
+
+#top {
+    text-align: center;
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: -6%;
+    color: rgb(212, 175, 55);
+}
+
+#top-nd {
+    text-align: center;
+    font-size: 160px;
+    color: rgb(226, 188, 61);
+}
+
+#red {
+    background-color: red;
+}
