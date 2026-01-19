@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* ช่วยให้คำนวณขนาดรวม Padding ได้แม่นยำขึ้น */
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -70,11 +70,10 @@ a:hover {
     aspect-ratio: 3/1;
     margin: 0 auto;
     margin-bottom: 60px;
-}
-
-#img {
-    width: 100%;
-    margin: 0 auto;
+    color: rgb(212, 175, 55);
+    font-size: 198px;
+    font-weight: 700;
+    text-align: center;
 }
 
 #bottom {
